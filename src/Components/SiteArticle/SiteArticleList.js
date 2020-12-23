@@ -1,10 +1,10 @@
 import React from 'react'
 
-const SiteArticlePreview = (props) => {
+const SiteArticleList = (props) => {
 
     return (
         <div className="col-12">
-            <div className="list-blog single-post d-sm-flex wow fadeInUpBig" data-wow-delay=".2s">
+            <div className="list-blog single-post d-sm-flex wow fadeInUpBig">
                 
                 <div className="post-thumb">
                     <img src="http://via.placeholder.com/1100x733.png?text=Placeholder" alt="" />
@@ -24,4 +24,4 @@ const SiteArticlePreview = (props) => {
 
 }
 
-export default SiteArticlePreview
+export default SiteArticleList

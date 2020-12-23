@@ -5,6 +5,7 @@ const FeaturedArticle = () => {
 
     const article = ArticlesData[0]
 
+    
     return (
         <div className="col-12">
             <div className="single-post wow fadeInUp">

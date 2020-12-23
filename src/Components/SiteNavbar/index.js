@@ -5,7 +5,7 @@ import HeaderMenu from './HeaderMenu'
 const SiteNavbar = () => {
 
     return (
-        <div>
+        <div className="mb-4">
             <HeaderIcons />
             <HeaderMenu />
         </div>

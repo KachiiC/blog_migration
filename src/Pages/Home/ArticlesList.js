@@ -2,13 +2,13 @@ import React from 'react'
 // Data
 import ArticlesData from 'Data/ArticlesData'
 // Components
-import SiteArticlePreview from 'Components/SiteArticlePreview'
+import SiteArticleList from 'Components/SiteArticle/SiteArticleList'
 
 
-const ArticlesList = () => {
+const SiteArticlesList = () => {
 
     const displayArticlesList = ArticlesData.slice(1,5).map((article, index) => (
-            <SiteArticlePreview
+            <SiteArticleList
                 key={index}
                 title={article.title}
                 preview={article.paragraph}
@@ -24,4 +24,4 @@ const ArticlesList = () => {
         </>
     )
 }
-export default ArticlesList
+export default SiteArticlesList
